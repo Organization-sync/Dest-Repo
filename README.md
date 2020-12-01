@@ -1,2 +1,2 @@
 # Source-Repo
-Source repository for cloning
+Source repository for cloning Run at 12 am for sync
