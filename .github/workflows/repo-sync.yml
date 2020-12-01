@@ -9,7 +9,7 @@ jobs:
     - name: repo-sync
       uses: wei/git-sync@v2
       with:
-        source_repo: "https://${{ secrets.TOKEN }}@github.com/Github-Api-master/Github-Automation"
+        source_repo: "https://${{ secrets.TOKEN }}@github.com/Github-Api-master/Source-Repo"
         source_branch: "*"
-        destination_repo: "https://${{ secrets.TOKEN }}@github.com/Organization-sync/Clone-Repo"
+        destination_repo: "https://${{ secrets.TOKEN }}@github.com/Organization-sync/Dest-Repo"
         destination_branch: "*"
